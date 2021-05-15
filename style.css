@@ -139,6 +139,55 @@ nav ul{
     }
 }
 
+
+/* Benefits section */
+
+.benefits-head{
+    background: #343c44;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.benefits-head h3{
+    padding: 1rem;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1 1 25rem;
+    min-height: 30vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.1), 0px 20px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card-icon{
+    background: rosybrown;
+}
+.cards img{
+    max-width: 15%;
+    margin: 2rem;
+}
+.card h4{
+    padding-top: 1rem;
+}
+.card p{
+    padding: 1rem;
+}
+.card-icon{
+    background: #27394e;
+}
+
 /* .locations-head h2 {
     padding: 1rem 0rem;
 }
